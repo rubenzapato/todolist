@@ -2,12 +2,13 @@ import React from 'react';
 import ArrowR from '../icons/ArrowR';
 import ArrowL from '../icons/ArrowL';
 import { getNameDay } from '../../helpers/getNameDay';
-
+import {getDate} from '../../helpers/getDate'
 const Day = ({ dateM, setDateM }) => {
 
 
     const addDays = (date) => {
       let addDate = new Date(dateM)
+      
       addDate.setDate(date.getDate() + 1)
       return addDate;
     }

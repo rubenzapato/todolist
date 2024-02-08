@@ -1,0 +1,827 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:200,200i,300,300i,400,500,600,700,700i,800,800i|Montserrat:300,400,500,600,700,900|Roboto:300,400,700,900&display=swap');
+
+/***/
+	.aviso-cookies {
+	display: none;
+	background: #fff;
+	padding: 20px;
+	width: calc(100% - 40px);
+	max-width: 300px;
+	line-height: 150%;
+	border-radius: 10px;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	z-index: 100;
+	padding-top: 60px;
+	box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
+	text-align: center;
+}
+
+.aviso-cookies.activo {
+	display: block;
+}
+
+.aviso-cookies .galleta {
+	max-width: 100px;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.aviso-cookies .titulo,
+.aviso-cookies .parrafo {
+	margin-bottom: 15px;
+}
+
+.aviso-cookies .boton {
+	width: 100%;
+	background: #595959;
+	border: none;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 15px 20px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.aviso-cookies .boton:hover {
+	background: #000;
+}
+
+.aviso-cookies .enlace {
+	color: #4DBFFF;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.aviso-cookies .enlace:hover {
+	text-decoration: underline;
+}
+
+.fondo-aviso-cookies {
+	display: none;
+	background: rgba(0,0,0,.20);
+	position: fixed;
+	z-index: 99;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+.fondo-aviso-cookies.activo {
+	display: block;
+}
+/***/
+
+.iconos-partidos{
+	width: 50px;
+	height: auto;}
+
+.paral{
+min-height: 380px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;}
+
+.paralsec{
+	background-image: url("<?php echo $foto;?>");}
+
+
+.jumbotron{ 
+	margin-bottom: 0;}
+
+.banner_224{
+	width:100%;
+	height:auto;
+	margin-bottom:20px;}
+
+.banner_224 img{
+	width:100%;
+	height:auto;}
+	
+.bordery-1{
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;}
+	
+.borderx-1{
+	border-left:1px solid #666;
+	border-right:1px solid #666;}
+	
+.contenido p{
+	font-size:21px !important;}
+	
+.contenido div span span{
+	font-size:21px !important;}
+		
+.contenido p span{
+	font-size:21px !important;}
+
+.contenido p span b{
+	font-size:21px !important;} 
+	
+#tbl-next-up {
+	bottom:226px;}
+
+
+.fs-15-x{
+	font-size:14px;}
+	
+.fs-16-x{
+	font-size:20px;}
+	
+.fs-10{
+	font-size:10px;}
+	
+.fs-12{
+	font-size:12px;}
+	
+.fs-14{
+	font-size:14px;}
+	
+.fs-15{
+	font-size:15px;}
+		
+.fs-16{
+	font-size:16px;}
+
+.fs-18{
+	font-size:18px;}
+	
+.fs-19{
+	font-size:19px;}
+		
+.fs-20{
+	font-size:20px;}
+
+.fs-22{
+	font-size:22px;}
+
+.fs-24{
+	font-size:24px;}
+
+.fs-26{
+	font-size:26px;}
+	
+.fs-28{
+	font-size:28px;}
+	
+.fs-30{
+	font-size:30px;}
+		
+.fs-32{
+	font-size:40px;}
+	
+.fs-34{
+	font-size:34px;}
+	
+.fs-40{
+	font-size:40px;}
+	
+.fs-50{
+	font-size:50px;}
+	
+.movil{
+	display:none;}
+		
+.img-casos{
+	width:100%; height:auto; float:left;}
+	
+.btn-casos{
+	width:50px; float: right;}
+	 
+.covidwidget{
+	width:100%;
+	height:264px;}
+		
+.casos{
+	width:100%; height: 276px; float:left;}
+	
+.backgroundcasos{
+	background-image:URL('https://planoinformativo.com/stock12/image/CORONAVIRUS/bc-casos.jpg'); background-repeat:no-repeat; background-size:cover;}
+		
+.wban{
+	width:400px;}
+
+.desc{
+	margin-top:2px;}
+
+.primero_slp{
+	 margin-left:32px; margin-top:105px;}
+	
+.segundo_slp{
+	margin-left:90px; margin-top:105px;}
+	
+.tercero_slp{
+	margin-left:72px; margin-top:105px;}
+	
+.primero{
+	 margin-left:32px; margin-top:105px;}
+	
+.segundo{
+	margin-left:58px; margin-top:105px;}
+	
+.tercero{
+	margin-left:50px; margin-top:105px;}
+	
+.corona{
+	height:265px;}
+	
+	
+.line-h{
+	line-height:43px;}
+	
+.bg-light-transparent{
+	background:rgba(255,255,255,.6);}
+	
+.autoplay-voz-2 .slick-prev:before{
+	color:#FFF;}
+	
+.autoplay-voz-2 .slick-next:before{
+	color:#FFF;}
+
+.btn-whatsapp{
+	color:#000;}
+	
+.btn-whatsapp:hover{
+	color:#43d854;}
+	
+.whatsapp-alta{
+	padding:15px;}
+	
+.whatsapp-alta{
+	border:1px solid #43d854;}
+	
+.whatsapp-alta:hover .fa-whatsapp{
+	color:#43d854;}
+	
+		
+.fa-whatsapp{
+	font-size:30px;
+	color:#43d854;}
+	
+.mtex-5{
+	margin-top:20px;}
+	
+ul, ol {
+	list-style:none;}
+
+.nav > li {
+	width:100%;
+	float:left;}
+			
+.nav li a {
+	display:block;}
+			
+.nav li ul {
+	padding-left:0;
+	display:none;
+	position:absolute;
+	min-width:100%;}
+			
+.nav li:hover > ul {
+	z-index:200;
+	display:block;}
+			
+.nav li ul li {
+	position:relative;}
+			
+.nav li ul li ul {
+	top:0px;}
+			
+.bg-obituarios{
+	background:url(../img/OBITUARIO-BODY.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;}
+
+.autoplay-reciente .slick-prev:before{
+	color:#FFF;}
+	
+	
+.autoplay-reciente .slick-next:before{
+	color:#FFF;}
+
+.ditem .text-info-center-reciente {
+	width:90%;
+    position: absolute;
+	top:30px;
+    left:5%;
+	line-height:34px;}
+
+.btn-correo{
+	background:url(https://planoinformativo.com/img/btn-email.png); 
+	width:51px; 
+	height:55px; 
+	float:left;
+	border:0;}
+	
+.btn-correo:hover{
+	background:url(https://planoinformativo.com/img/btn-email-over.png); 
+	width:51px; 
+	height:55px; 
+	float:left;
+	border:0;}
+
+
+.switch-mobile-no{
+	display:none;}
+	
+input {
+	outline: none;}
+	
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;}
+	
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; }
+
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;}
+	
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);}
+
+input:-moz-placeholder {
+	color: #999;}
+	
+input::-webkit-input-placeholder {
+	color: #999;}
+
+/* Demo 2 */
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;}
+	
+#demo-2 input[type=search]:hover {
+	background-color: #fff;}
+	
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;}
+
+#demo-2 input:-moz-placeholder {
+	color: transparent;}
+	
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;}
+
+.nav-item .nav-link{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight:500;}
+	
+.fira{
+	font-family: 'Fira Sans', sans-serif;}
+	
+.montserrat{
+	font-family: 'Montserrat', sans-serif;}
+	
+.roboto{	
+	font-family: 'Roboto', sans-serif;}
+
+@font-face {
+	font-family: 'Bebas Neue Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Bebas Neue Regular'), url('https://planoinformativo.com/css/bebas.woff') format('woff');}
+
+.bebas{	
+	font-family: 'Bebas Neue Regular';}
+	
+.semi-bold{
+	font-weight:600;}
+	
+.extra-bold{
+	font-weight:800;}
+	
+.extra-light{
+	font-weight:200;}
+
+.bold{
+	font-weight: bold;}
+		
+.bold-italic{
+	font-weight:700;}
+	
+.light{
+	font-weight:300;}
+	
+.regular{
+	font-weight:400;}
+	
+.black{
+	font-weight:900;}
+	
+.medium{
+	font-weight:500;}
+	
+.c-red-C1272D{
+	color:#C1272D;}
+	
+a{
+	color:#000;
+	text-decoration:none;}
+	
+
+a:hover{
+	color:#000;
+	text-decoration:none;}
+	
+	
+.contenido a{
+	color:#007bff;
+	text-decoration: underline;}
+	
+
+.contenido a:hover{
+	text-decoration: underline;}
+	
+.ditem .text-info-center {
+
+   position: absolute;
+   bottom:0px; 
+   width:246px;
+   height:86px;
+   padding-top:5px;
+   padding-bottom:5px;}
+   
+.ditem .text-info-center-multimedia {
+
+   position: absolute;
+   top:0px; 
+   width:246px;
+   height:86px;
+   padding-top:5px;
+   padding-bottom:5px;}
+
+.bg-db{
+	background:#181844;}
+	
+.bg-gray-E6E7E8{
+	background:#E6E7E8;}
+	
+.text-green{
+	color:#003B00;}
+	
+	
+.fc-y{
+	color:#FBB03B;}
+	
+.fc-a{
+	color:#29ABE2;}
+	
+.scroll {
+  height:460px;
+  overflow-y: scroll;}
+  
+.w-30{
+	 width:30%; height:auto;}
+	 
+.w-70{
+	 width:70%; height:auto;}
+  
+.blo-1{
+	border-left:6px solid #F16300;}
+	
+.img-principal{
+	width:60%; height:auto; float:left;}
+	
+.c-red{
+	color:#ED1C24;}
+	
+.c-grey333{
+	color:#333333;}
+	
+.bg-grey-999{
+	background:#999999;}
+	
+.bg-grey2{
+	background:#E6E7E8;}
+	
+.bg-grey333{	
+	background:#333333;}
+	
+.bg-dark2{
+	background:#000;}	
+.bg-blue-radio{
+	background:#181844;}
+	
+.c-blue-radio{
+	color:#181844;}	
+	
+.bgl{
+   width: 100%; 
+   text-align: center;
+   height:5px;
+   border-bottom: 1px solid #B3B3B3; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; }
+   
+.bg-blue-plano{
+	background:#00004D;}
+
+.border-bottom-bold{
+	border-bottom:1px solid #666;}
+	
+.border-dark{
+	border:1px solid #999;}
+	
+.nos-b-0{
+	list-style:none;
+	padding:0;}
+
+.nos-b-0 li{
+	border-bottom:1px solid #666;
+	border-left:1px solid #666;
+	border-right:1px solid #666;
+	padding:10px;}
+	
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+	}
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (max-width: 1280px) {
+.scroll {
+  height:300px;
+  overflow-y: scroll;}
+.fs-40{
+	font-size:26px;}
+	
+	.fs-32{
+	font-size:26px;}    
+	}
+		
+@media (max-width: 1024px) {
+	.wban{
+	width:330px;}
+	.desc{
+	margin-top:-8px;}
+	.primero_slp{
+	 margin-left:22px; margin-top:88px;}
+	
+.segundo_slp{
+	margin-left:80px; margin-top:88px;}
+	
+.tercero_slp{
+	margin-left:64px; margin-top:88px;}
+	
+	
+.primero{
+	 margin-left:22px; margin-top:88px;}
+	
+.segundo{
+	margin-left:42px; margin-top:88px;}
+	
+.tercero{
+	margin-left:50px; margin-top:88px;}
+	
+.corona{
+	height:221px;}
+
+.navbar{
+	padding:0.5rem 0rem;}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding-right:0.7rem;
+	padding-left:0;}
+	
+.fs-16 {
+	font-size:14px;	}
+
+h1{
+	font-size:1.5rem;}
+
+.img-principal{
+	width:55%;}
+
+.scroll {
+	height:316px;
+	overflow-y: scroll;}
+
+.fs-40{
+	font-size:30px;} 
+	
+.fs-32{
+	font-size:26px;} 
+
+}
+
+@media (max-width: 768px) {
+	.wban{
+	width:250px;}
+	.wban .fs-16{
+		font-size:10px;}
+	.primero_slp{
+	 margin-left:27px; margin-top:64px; font-size: 15px;}
+	
+.segundo_slp{
+	margin-left:50px; margin-top:64px; font-size: 15px;}
+	
+.tercero_slp{
+	margin-left:40px; margin-top:64px;    font-size: 15px;
+}
+	
+	
+.primero{
+	 margin-left:13px; margin-top:64px; font-size:16px;}
+	
+.segundo{
+	margin-left:30px; margin-top:64px; font-size:16px;}
+	
+.tercero{
+	margin-left:30px; margin-top:64px;font-size:16px;}
+	
+.corona{
+	height:200px;}
+	
+.covidwidget {
+
+    height: 100px;
+}	
+
+	
+	.navbar{
+		padding:0.5rem 0rem;}
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding-right:0.7rem;
+		padding-left:0;}
+	
+	.fs-16 {
+		font-size:14px;	}
+h1{
+	font-size:1.5rem;}
+.img-principal{
+	width:55%;}
+.scroll {
+  height:316px;
+  overflow-y: scroll;}
+.fs-40{
+	font-size:30px;} 
+	
+	 .fs-32{
+	font-size:26px;}
+}
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+	
+	.movil-height{
+		height: 900px !important;
+	}
+	.revista-movil{
+		height: 600px;
+	}
+.w-100-movil{
+	width:100%;}
+	
+iframe #google_image_div a img{
+	width:100% !important;
+	height:auto;}
+		
+.movil{
+	display: block;}
+
+.fs-15-x{
+	font-size:7px;}
+
+.fs-16-x{
+	font-size:9px;}
+
+.btn-casos{
+	margin-top:10px; 
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	float:none;}
+
+.img-casos{
+	width:100%;
+	height:auto; }
+
+.backgroundcasos{
+	background-image:URL('https://planoinformativo.com/stock12/image/CORONAVIRUS/bc-casos.jpg');
+	background-color:#04b5aa;
+	background-repeat:no-repeat;
+	background-size:auto;}
+
+.casos{
+	width:100%; height:140px; margin-left:0; float:left;}
+
+.wban{
+	width:250px;}
+	
+.wban .fs-16{
+		font-size:10px;}
+.desc{
+	margin-top:-12px;}
+
+.primero_slp{
+	 margin-left:25px; margin-top:64px;}
+	
+.segundo_slp{
+	margin-left:48px; margin-top:64px;}
+	
+.tercero_slp{
+	margin-left:45px; margin-top:64px;}
+	
+.primero{
+	 margin-left:14px; margin-top:64px;}
+	
+.segundo{
+	margin-left:22px; margin-top:64px;}
+	
+.tercero{
+	margin-left:30px; margin-top:64px;}
+	
+.corona{
+	height:200px;}
+	
+	.ditem .text-info-center-multimedia{
+		width:200px;}
+	.ditem .text-info-center {
+		width:200px;}
+
+	.mtex-5{
+	margin-top:20px;}
+	
+	.nav li ul li a img{
+		width:100%;
+		height:auto;}
+		
+		
+	.img-principal{
+		width:100%;}
+	
+	.scroll {
+  height:200px;
+  overflow-y: scroll;}
+  
+    .mobile-w-50{width:50%;}
+  
+	.mobile-space{margin-top:20px;}
+	
+	.mobile-right{ right:0;}
+
+	.switch-mobile-no{
+		margin-top:20px;
+		display:block;}
+		
+	.switch-mobile{
+		display:none;}
+	 .w-30{
+	 width:100%; height:auto;}
+	 
+	 .w-70{
+	 width:100%; height:auto;}
+	 
+	.fs-40{
+		font-size:20px;}
+		
+		
+		.fs-32{
+	font-size:20px;} 
+		
+	.fs-16{
+		font-size:20px;}
+	
+	}
+
+
