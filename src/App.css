@@ -5,18 +5,6 @@
     text-align: center;
 }
 
-.checkbox{
-    appearance: none;
-    width: 17px; 
-    height: 17px; 
-    background-color: #484f58;
-    border: 1px solid #000; 
-    border-radius: 3px;
-}
-
-.checkbox:checked{
-    background-color: #3689ce;
-}
 
 .checkbox:checked::before{
     content: ""; 
